@@ -37,6 +37,7 @@ import "../Storage.js" as Storage
 
 
 Page {
+    allowedOrientations: Orientation.All
 
     property bool dataLoaded : false
 

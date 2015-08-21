@@ -37,6 +37,7 @@ import "../components"
 
 
 Page {
+    allowedOrientations: Orientation.All
 
     property bool dataLoaded : false
 

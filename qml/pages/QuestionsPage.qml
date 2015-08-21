@@ -38,6 +38,8 @@ import "../Helper.js" as Helper
 
 
 Page {
+    allowedOrientations: Orientation.All
+
     property bool searchIsVisible : true
     property bool dataLoaded : false
     property bool loadingMore : false

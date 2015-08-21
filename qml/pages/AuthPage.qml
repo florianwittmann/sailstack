@@ -23,6 +23,7 @@ Page {
             title: "SailStack"
         }
         Image {
+            anchors.horizontalCenter: parent.horizontalCenter
             source: "../images/header_logo.png"
         }
 

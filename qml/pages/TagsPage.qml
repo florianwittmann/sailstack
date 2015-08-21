@@ -36,6 +36,7 @@ import "../Storage.js" as Storage
 import "../Status.js" as Status
 
 Page {
+    allowedOrientations: Orientation.All
 
     property bool dataLoaded : false
     property bool loadingMore : false
